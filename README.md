@@ -1,16 +1,18 @@
-# MERN_A_to_Z
+# MERN_A_to_Z_Client
 
-### To Run the app (server)
+### To Run the app (Client - React)
 
-##### Make sure you are in - MERN_A_to_Z/ directory & type the following command
+##### Make sure you are in - MERN_A_to_Z_Client/mern_a_to_z_client/  directory & type the following command
 
 ```sh
 $ npm install
-$ npm run app
+$ npm start
 ```
 
-[Read My Article on LogRocket Blog about this repository](https://blog.logrocket.com/mern-stack-a-to-z-part-1/)
+### To Explore all features in this project you need to connect the server first. Here you will find the necessary files (backend/server).
 
-### You will find the front end part (MERN stack A to Z - Part-2) here.
+##### GitHub Repo - Backend/Server
+[https://github.com/nurislam03/MERN_A_to_Z](https://github.com/nurislam03/MERN_A_to_Z)
 
-[FrontEnd - (Client)](https://github.com/nurislam03/MERN_A_to_Z_Client)
+#### Read My Article about this server side coding
+[LogRocket Article Link](https://blog.logrocket.com/mern-stack-a-to-z-part-1/)
