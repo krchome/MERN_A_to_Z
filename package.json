@@ -7,31 +7,23 @@
     "node": "16.13.2"
   },
   "scripts": {
-    
-    "app": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm run build",
-        "install-client": "cd client && npm install",
-        "heroku-postbuild": "npm run install-client && npm run build",
-        "server": "nodemon server.js",
-        "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
-        "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\""
+    "client": "cd MERN_A_to_Z_Client && npm start --prefix client",
+    "heroku-postbuild": "cd MERN_A_to_Z_Client && npm install && npm run build",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nurislam03/MERN_A_to_Z.git"
+    "url": "https://github.com/krchome/MERN_A_to_Z"
   },
-  "author": "Nur Islam",
+  "author": " ",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nurislam03/MERN_A_to_Z/issues"
-  },
-  "homepage": "https://github.com/nurislam03/MERN_A_to_Z#readme",
+  "homepage": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "config": "^3.1.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "validation": "0.0.1"
